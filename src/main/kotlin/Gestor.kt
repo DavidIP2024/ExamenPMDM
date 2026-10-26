@@ -26,3 +26,32 @@ fun nivel_1(): Int {
     return nivel_actual
 }
 
+
+fun gestor(): Int {
+    when (estado_actual) {
+        Estados.Idle -> {
+        }
+
+        Estados.MovingUP -> {
+            nivel_actual = 1
+            estado_actual = Estados.Idle
+        }
+
+        Estados.MovingDOWN -> {
+            nivel_actual = 0
+            estado_actual = Estados.Idle
+        }
+
+        Estados.Error -> {
+            nivel_actual = -1
+        }
+    }
+
+    return nivel_actual
+}
+
+
+
+
+
+
