@@ -1,3 +1,4 @@
+
 package org.danielcastelao.dam
 
 sealed class Estados {
