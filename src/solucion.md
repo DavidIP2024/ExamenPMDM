@@ -55,7 +55,7 @@ Contiene la función `main()`, que permite probar el funcionamiento del mecanism
 
 ### `HaloTest.kt`
 
-Contiene las pruebas unitarias realizadas con JUnit 5 para comprobar el funcionamiento del programa.
+Contiene las pruebas unitarias realizadas para comprobar el funcionamiento del programa.
 
 ## 5. Transiciones entre estados
 
@@ -92,8 +92,7 @@ Las pruebas de `HaloTest.kt` comprueban que:
 - No se inicia un movimiento si ya está en el nivel solicitado.
 - No se inicia otro movimiento mientras el mecanismo está en movimiento.
 - El estado de error impide realizar movimientos.
-
-Para ejecutar las pruebas desde IntelliJ IDEA, abre `HaloTest.kt` y pulsa el botón de ejecución situado junto a la clase o a cada prueba.
+![TESTS Captura.png](TESTS%20Captura.png)
 
 ## 8. Conclusión
 
