@@ -50,6 +50,13 @@ fun gestor(): Int {
     return nivel_actual
 }
 
+fun activarError(): Int {
+    estado_actual = Estados.Error
+    nivel_actual = -1
+
+    return nivel_actual
+}
+
 
 
 
